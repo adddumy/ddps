@@ -11,6 +11,8 @@ JotForm.setCalculations([
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"43","equation":"{43}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1478151547583","resultField":"44","decimalPlaces":"2","isError":false,"conditionId":"1478151610742","conditionTrue":false},
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"40","equation":"{40}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660653515","resultField":"42","decimalPlaces":"2","isError":false,"conditionId":"1466660687301","conditionTrue":false},
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"33","equation":"{33}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"41","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false},
+	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"48","equation":"{48}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"50","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false},
+	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"49","equation":"{49}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"53","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false},
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"32","equation":"{32}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1466654156588","resultField":"37","decimalPlaces":"2","isError":false,"conditionId":"1466615553632","conditionTrue":false},
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"30","equation":"{30}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1466654088268","resultField":"36","decimalPlaces":"2","isError":false,"conditionId":"1466615515606","conditionTrue":false},
 	{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"29","equation":"{29}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1466654022145","resultField":"35","decimalPlaces":"2","isError":false,"conditionId":"1466615460215","conditionTrue":false},
@@ -23,6 +25,10 @@ JotForm.setConditions([
 	{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"40","equation":"{40}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660653515","resultField":"42","decimalPlaces":"2","isError":false,"conditionId":"1466660687301","conditionTrue":false}],"id":"1466660687301","index":"3","link":"Any","priority":"3","terms":[{"id":"term_1466660653515","field":"20","operator":"isFilled","value":"","isError":false}],"type":"calculation"},
 	{"action":[{"id":"action_1466660618338","visibility":"Disable","field":"41","isError":false}],"id":"1466660636691","index":"4","link":"Any","priority":"4","terms":[{"id":"term_1466660618338","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
 	{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"33","equation":"{33}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"41","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false}],"id":"1466660608611","index":"5","link":"Any","priority":"5","terms":[{"id":"term_1466660562322","field":"20","operator":"isFilled","value":"","isError":false}],"type":"calculation"},
+	{"action":[{"id":"action_1466660618338","visibility":"Disable","field":"50","isError":false}],"id":"1466660636691","index":"4","link":"Any","priority":"4","terms":[{"id":"term_1466660618338","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
+	{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"48","equation":"{48}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"50","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false}],"id":"1466660608611","index":"5","link":"Any","priority":"5","terms":[{"id":"term_1466660562322","field":"20","operator":"isFilled","value":"","isError":false}],"type":"calculation"},
+	{"action":[{"id":"action_1466660618338","visibility":"Disable","field":"53","isError":false}],"id":"1466660636691","index":"4","link":"Any","priority":"4","terms":[{"id":"term_1466660618338","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
+	{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"49","equation":"{49}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_1466660562322","resultField":"53","decimalPlaces":"2","isError":false,"conditionId":"1466660608611","conditionTrue":false}],"id":"1466660608611","index":"5","link":"Any","priority":"5","terms":[{"id":"term_1466660562322","field":"20","operator":"isFilled","value":"","isError":false}],"type":"calculation"},
 	{"action":[{"id":"action_1466654173810","visibility":"Disable","field":"37","isError":false}],"id":"1466654191300","index":"8","link":"Any","priority":"8","terms":[{"id":"term_1466654173810","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
 	{"action":[{"id":"action_1466654117593","visibility":"Disable","field":"36","isError":false}],"id":"1466654146390","index":"9","link":"Any","priority":"9","terms":[{"id":"term_1466654117593","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
 	{"action":[{"id":"action_1466654046413","visibility":"Disable","field":"35","isError":false}],"id":"1466654072933","index":"10","link":"Any","priority":"10","terms":[{"id":"term_1466654046413","field":"20","operator":"isFilled","value":"","isError":false}],"type":"require"},
@@ -296,13 +302,13 @@ function createOption(id1, text, value) {
 				<div class="form-multiple-column" data-columnCount="2">
 					<span class="form-radio-item">
 					<span class="dragger-item"></span>
-					<input type="radio" class="form-radio validate[required]" id="input_3_0" name="q3_institute" value="Government" onClick="javascript:return institute(1)"/>
+					<input type="radio" class="form-radio validate[required]" id="input_3_0" name="ins" value="Government" onClick="javascript:return institute(1)"/>
 					<label id="label_input_3_0" for="input_3_0">
 					Government </label>
 					</span>
 					<span class="form-radio-item">
 					<span class="dragger-item"></span>
-					<input type="radio" class="form-radio validate[required]" id="input_3_1" name="q3_institute" value="Private" onClick="javascript:return institute(2)"/>
+					<input type="radio" class="form-radio validate[required]" id="input_3_1" name="ins" value="Private" onClick="javascript:return institute(2)"/>
 					<label id="label_input_3_1" for="input_3_1">
 					Private </label>
 					</span>
@@ -854,6 +860,8 @@ function createOption(id1, text, value) {
 				<div id="cid_49" class="form-input jf-required">
 					<span class="form-sub-label-container" style="vertical-align: top">
 					<select class="form-dropdown validate[required]" style="width:150px" id="input_49" name="resPhiRange">
+					<option></option>
+					<option>nnnnn</option>
 					</select>
 					<label class="form-sub-label" for="input_49" style="min-height: 13px;">
 					PHI Range </label>
@@ -983,6 +991,8 @@ function createOption(id1, text, value) {
 				<div id="cid_53" class="form-input jf-required">
 				<span class="form-sub-label-container" style="vertical-align: top">
 				<select class="form-dropdown validate[required]" style="width:150px" id="input_53" name="curPhiRange">
+				<option></option>
+				<option>nnnnn</option>
 				</select>
 				<label class="form-sub-label" for="input_53" style="min-height: 13px;">
 				PHI Range </label>
