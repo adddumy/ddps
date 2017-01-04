@@ -157,9 +157,11 @@ CREATE TABLE IF NOT EXISTS `patient` (
   `gender` text NOT NULL,
   `birthDate` date NOT NULL,
   `age` int(3) NOT NULL,
-  `nextOfKin` text,
+  `nextOfKinFirstName` text,
+  `nextOfKinLastName` text,
   `guardian` text,
-  `guardianName` text,
+  `guardianFirstName` text,
+  `guardianLastName` text,
   `ethnicGroup` text,
   `resAddLine1` text NOT NULL,
   `resAddLine2` text,
@@ -198,6 +200,7 @@ CREATE TABLE IF NOT EXISTS `notification` (
   `regOrBHTNo` text NOT NULL,
   `ward` text NOT NULL,
   `labResult` text,
+  `designation` text NOT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT noti_user_id FOREIGN KEY (userId) REFERENCES users(id) ON UPDATE CASCADE,
   CONSTRAINT noti_ins_name FOREIGN KEY (insName) REFERENCES institute(insName) ON UPDATE CASCADE,
@@ -214,16 +217,17 @@ CREATE TABLE IF NOT EXISTS `h411a` (
   `gender` text NOT NULL,
   `occupation` text NOT NULL,
   `sourceOfNotify` text NOT NULL,
+  `specify` text,
   `diseaseAsNotify` text NOT NULL,
-  `dateOfNotify` date NOT NULL,
+  `notifyDate` date NOT NULL,
   `diseaseAsConf` text NOT NULL,
-  `dateOfConf` date NOT NULL,
+  `confDate` date NOT NULL,
   `confirmedBy` text NOT NULL,
   `natureOfConf` text NOT NULL,
   `officeNote` text NOT NULL,
   PRIMARY KEY (`notifyId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
+ 
 CREATE TABLE IF NOT EXISTS `h399` (
   `entryId` varchar(8) NOT NULL,
   `weekEndDate` date NOT NULL,
